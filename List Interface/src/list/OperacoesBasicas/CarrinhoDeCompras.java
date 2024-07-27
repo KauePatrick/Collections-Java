@@ -12,8 +12,7 @@ public class CarrinhoDeCompras {
     }
 
     public void adicionarItem(String nome, double preco, int quantidade){
-        Item item = new Item (nome, preco, quantidade);
-        this.CarrinhoItems.add(item);
+        CarrinhoItems.add(new Item(nome, preco, quantidade));
     }
 
     public void removerItem(String nome){
@@ -58,8 +57,8 @@ public class CarrinhoDeCompras {
         carrinhoDeCompras.adicionarItem("chinelo", 1.752, 3);
         carrinhoDeCompras.exibirItens();
         carrinhoDeCompras.calcularValorTotal();
-        carrinhoDeCompras.removerItem("celular");
-        carrinhoDeCompras.exibirItens();
+        //carrinhoDeCompras.removerItem("celular");
+        //carrinhoDeCompras.exibirItens();
 
     }
 
