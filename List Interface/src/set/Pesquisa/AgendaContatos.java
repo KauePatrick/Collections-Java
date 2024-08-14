@@ -53,6 +53,9 @@ public class AgendaContatos {
         agendaContatos.adicionarContato("Fernando", 77778888);
         agendaContatos.adicionarContato("Carolina", 55555555);
 
-        agendaContatos.exibirContatos();
+        System.out.println(agendaContatos.pesquisarPorNome("Maria"));
+
+        System.out.println(agendaContatos.atualizarNUmeroContato("João", 996052408));
+
     }
 }
