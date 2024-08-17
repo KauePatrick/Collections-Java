@@ -1,6 +1,5 @@
-package set.OperacoesBasicas;
+package set.OperacoesBasicas.tarefaDio;
 
-import java.sql.SQLOutput;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
