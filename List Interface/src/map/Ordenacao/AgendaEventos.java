@@ -50,9 +50,11 @@ public class AgendaEventos {
 
         System.out.println(LocalDate.now());
 
-        agendaEventos.adicionarEvento(LocalDate.of(2024, 10, 26), "Aniversario da isa", "Churrasco" );
-        agendaEventos.adicionarEvento(LocalDate.of(2024, 1, 2), "Aniversario do Kaue", "Kaue" );
-        agendaEventos.adicionarEvento(LocalDate.of(2024, 8, 28), "Aniversario da vovo", "vovo bunita" );
+        agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 24), "PROVA Proj. Sistemas O.O.", "PROVA" );
+        agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 20), "PROVA Desenv. Sof. Internet", "PROVA" );
+        agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 25), "PROVA Ger. Projetos Software", "PROVA" );
+        agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 19), "PROVA Programação O.O.II", "PROVA" );
+        agendaEventos.adicionarEvento(LocalDate.of(2024, 9, 23), "PROVA Top. Esp. Programação O.O.", "PROVA" );
         agendaEventos.exibirAgenda();
         agendaEventos.obterProximoEvento();
 
